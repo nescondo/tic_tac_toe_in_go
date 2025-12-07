@@ -82,9 +82,10 @@ func detectTie(board [9]string) bool {
 }
 
 func main() {
-    var board [9]string = [9]string{" ", " ", " ", " ", " ", " ", " ", " ", " "}
-    var player = "X"
-    var computer = "O"
+    var board [9]string = [9]string{" ", " ", " ", " ", " ", " ", " ", " ", " "}    
+
+    var player string = "X" 
+    computer := "O"
     
     for true {
         // Player move.
